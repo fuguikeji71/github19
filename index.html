@@ -12,6 +12,23 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <link rel="icon" href="./skin/lgo.png" type="image/png">
+    <meta name="pwa_apple_name" content="金钱豹"> <!-- 桌面图标名称 -->
+    <meta name="pwa_apple_fullscreen" content="yes"> <!-- 隐藏浏览器导航栏 -->
+    <meta name="pwa_apple_status" content="black-translucent"> <!-- 状态栏样式 -->
+    <link rel="pwa_apple_icon" href="./skin/logo.jpg"> <!-- 单张图标（512x512px） -->
+
+<!-- 安卓配置 -->
+    <link rel="pwa_manifest" href="pwa_single_manifest.json"> <!-- 安卓清单 -->
+    <link rel="pwa_main_icon" href="./skin/logo.jpg"> <!-- 单张图标 -->
+    <meta name="pwa_theme" content="#4CAF50"> <!-- 主题色 -->
+
+<!-- 安全区域适配（不影响现有样式） -->
+<style>
+  .pwa_padding_fix {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+</style>
     <style>
         .lang_radio {
             display: none;

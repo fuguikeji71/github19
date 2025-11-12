@@ -1,7 +1,7 @@
 {
   "name": "金钱豹娱乐", // 桌面显示的完整名称
   "short_name": "金钱豹", // 桌面图标下方显示的简称（建议4-6字）
-  "start_url": "./index.html", // H5 首页地址（相对路径或完整网址）
+  "start_url": "index.html", // H5 首页地址（相对路径或完整网址）
   "display": "standalone", // 打开方式：全屏（无浏览器工具栏）
   "background_color": "#ffffff", // 启动时的背景色
   "theme_color": "#000000", // 状态栏颜色

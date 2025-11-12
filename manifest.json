@@ -7,17 +7,17 @@
   "theme_color": "#000000", // 状态栏颜色
   "icons": [
     {
-      "src": "icon-60x60.png",
+      "src": "logo.jpg",
       "sizes": "60x60",
       "type": "image/png"
     },
     {
-      "src": "icon-120x120.png",
+      "src": "logo.jpg",
       "sizes": "120x120",
       "type": "image/png"
     },
     {
-      "src": "icon-180x180.png",
+      "src": "logo.jpg",
       "sizes": "180x180",
       "type": "image/png" // iPhone 主屏幕图标推荐尺寸（180x180，高清）
     }
